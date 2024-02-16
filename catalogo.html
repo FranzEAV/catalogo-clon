@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/css/catalogo.css">
+    <script src="catalogo.js" async></script>
+    <title>Catalogo de celulares</title>
+</head>
+<body>
+    <nav class="menu-bar">
+        <div class="group">
+            <a class="item title" href="index.html">FRAX</a>
+        </div>
+        <div class="group">
+            <a class="item" href="perfil.html">Perfil</a>
+            <a class="item" href="registro.html">Registrate</a>
+        </div>
+    </nav>
+    <header>
+        <h1>Catalogo de celulares</h1>
+    </header>
+    <section class="contenedor">
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Galaxy S24</span>
+                <img src="src/img/galaxy S24.png" alt="" class="img-item">
+                <span class="precio-item">S/.3757</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Galaxy S24 Ultra</span>
+                <img src="src/img/galaxy S24 Ultra.png" alt="" class="img-item">
+                <span class="precio-item">S/.5280</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Iphone 15</span>
+                <img src="src/img/iphone 15.png" alt="" class="img-item">
+                <span class="precio-item">S/.3640</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Iphone 15 Pro</span>
+                <img src="src/img/iphone 15 Pro.png" alt="" class="img-item">
+                <span class="precio-item">S/.4699</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Xiaomi redmi note 13</span>
+                <img src="src/img/xiaomi redmi note 13.png" alt="" class="img-item">
+                <span class="precio-item">S/.830</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Xiaomi redmi note 13 Pro</span>
+                <img src="src/img/xiaomi redmi note 13 pro.png" alt="" class="img-item">
+                <span class="precio-item">S/.1170</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Motorola G84</span>
+                <img src="src/img/motorola g84.png" alt="" class="img-item">
+                <span class="precio-item">S/.900</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Honor 90</span>
+                <img src="src/img/Honor 90.png" alt="" class="img-item">
+                <span class="precio-item">S/.1089</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                <!-- esta parte esta en js -->
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        S/.3757
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
